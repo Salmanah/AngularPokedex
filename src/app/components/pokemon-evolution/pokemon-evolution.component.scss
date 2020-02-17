@@ -1,0 +1,24 @@
+p{
+    text-transform: capitalize;
+}
+.circle {
+    background-image: url(../../../assets/battle-background.png);
+    border-radius: 215px;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 255, 255, 1);
+}
+
+.flex-row-container{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.evolutionImage{
+    max-width: 90%;
+    width: 90%;
+}

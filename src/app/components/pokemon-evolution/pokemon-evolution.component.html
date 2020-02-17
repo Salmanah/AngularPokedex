@@ -1,0 +1,11 @@
+<div class="container-fluid" style="text-align: center; margin-top: 50px;">
+    <div class="row" style=" justify-content: center; justify-content: space-between; justify-content: space-around;">
+        <div class="circle col-3" *ngFor="let p of pokemonEvolution.evolutions" routerLink="/pokedex/{{p.id}}">
+            <img class="evolutionImage" src={{imageFrontUrl}}{{p.id}}.png/>
+        </div>
+    </div>
+</div>
+
+
+<!--
+-->

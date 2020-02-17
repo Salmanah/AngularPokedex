@@ -1,0 +1,256 @@
+p{
+  text-transform: capitalize;
+}
+.profile-card-1 {
+  font-family: 'Open Sans', Arial, sans-serif;
+  position: relative;
+  width: 500px;
+  overflow: hidden; 
+  color:black;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border:none;
+}
+.profile-card-1 .background {
+  position: absolute;
+  width:100%;
+  vertical-align: top;
+  opacity: 0.9;
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+   -webkit-transform: scale(1.8);
+  transform: scale(1.8);
+}
+.profile-card-1 .card-content {
+  width: 100%;
+  padding: 15px 25px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+.profile-card-1 .profile {
+  border-radius: 50%;
+  width: 150px;
+  opacity: 1;
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+  border: 2px solid rgba(255, 255, 255, 1);
+}
+
+
+.profile-card-1 h2 {
+  margin: 0 0 5px;
+  font-weight: 600;
+  font-size:18px;
+}
+.profile-card-1 h2 small {
+  display: block;
+  font-size: 15px;
+  margin-top:10px;
+}
+
+.card{
+  font-size: 18px;
+  box-shadow: 0 0 3px 3px grey;
+}
+
+
+
+
+.card-flip > div {
+  backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  
+}
+
+.baseStat{ 
+  position: relative; 
+  background-color: rgba(204, 214, 221, 0.603);
+  width: 90%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-bottom: 50px;
+  margin-top: 50px;
+}
+
+.progress{
+  height: 1.0rem;
+  width: 150px;
+  font-size: 18px;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.progress > .progress-bar{
+  color: black;
+}
+
+/*
+.profile-sprite{
+    width: 600px;
+    background-color: #b3cccc;
+}
+
+
+
+body{
+    background: #222
+}
+
+.progress{
+    height: 1.2rem;
+    width: 200px;
+    font-size: 18px;
+    border-radius: 25px;
+}
+
+.progress > .progress-bar{
+    color: black;
+}
+
+.baseStat{
+    max-width: 100%;
+    position: relative; 
+    background-color: rgba(204, 214, 221, 0.603);
+    width: 100%;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    padding-bottom: 20px;
+    border-radius: 35%; 
+}
+
+.profile-card-1 {
+    font-family: 'Open Sans', Arial, sans-serif;
+    position: relative;
+    overflow: hidden;
+    color:black;
+    width: 500px; 
+    text-align: center;
+    border:none;
+    margin: 20px;
+  }
+  .profile-card-1 .background {
+    width:100%;
+    position: absolute;
+    vertical-align: top;
+    opacity: 0.9;
+    -webkit-filter: blur(5px);
+    filter: blur(5px);
+     -webkit-transform: scale(1.8);
+    transform: scale(1.8);
+  }
+ 
+  .profile-card-1 .profile {
+    border-radius: 50%;
+    width: 300px;
+    max-width: 300px;
+    opacity: 1;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(255, 255, 255, 1);
+    -webkit-transform: translate(-50%, 0%);
+    transform: translate(-50%, 0%);
+  }
+
+
+  .profile-card-1 h2 {
+    margin: 0 0 5px;
+    font-weight: 600;
+    font-size:18px;
+  }
+  .profile-card-1 h2 small {
+    display: block;
+    font-size: 15px;
+    margin-top:10px;
+  }
+
+  .card{
+    font-size: 18px;
+    box-shadow: 0 0 3px 3px grey;
+  }
+ 
+  .card-flip > div {
+    backface-visibility: hidden;
+    transition: transform 500ms;
+    transition-timing-function: linear;
+    width: 100%;
+    margin: 0;
+    
+  }
+  
+  .card-front {
+    transform: rotateY(0deg);
+    margin-top: 28px !important;
+  }
+
+*/
+  
+.types{
+    max-width: 45%;
+    margin:auto;
+}
+
+
+  /** STOLEN FROM PÅL MATHIAS, he is holding my family as hostages **/
+  .normal {
+    background-color: burlywood;
+  }
+  .fire {
+    background-color: orange;
+  }
+  .fighting {
+    background-color: rgb(80, 51, 51);
+  }
+  .water {
+    background-color: rgb(22, 22, 116);
+    color: white;
+  }
+  .flying {
+    background-color: rgb(194, 233, 243);
+  }
+  .grass {
+    background-color: green;
+    color: white;
+  }
+  .poison {
+    background-color: darkmagenta;
+    color: white;
+  }
+  .electric {
+    background-color: yellow;
+  }
+  .ground {
+    background-color: rgb(116, 66, 20);
+    color: whitesmoke;
+  }
+  .psychic {
+    background-color: palevioletred;
+  }
+  .rock {
+    background-color: grey;
+  }
+  .ice {
+    background-color: lightblue;
+  }
+  .bug {
+    background-color: lawngreen;
+  }
+  .dragon {
+    background-color: gold;
+  }
+  .ghost {
+    background-color: black;
+    color: whitesmoke;
+  }
+  .dark {
+    background-color: rgb(51, 51, 51);
+    color: whitesmoke;
+  }
+  .steel {
+    background-color: gray;
+  }
+  .fairy {
+    background-color: pink;
+  }

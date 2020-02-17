@@ -1,0 +1,9 @@
+<div class="row"> 
+    <div class="col-6"*ngFor="let p of pokemon.moves; let i=index">
+        <div style="padding:5px;" *ngIf="i<4">
+            <div class="progress" style="text-align: center;">
+                <p>{{p.move.name | replace:"-":" " }}</p>
+            </div>
+        </div>
+    </div>
+</div>

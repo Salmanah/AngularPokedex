@@ -1,1 +1,6 @@
-<p>pokemon-details works!</p>
+<div *ngIf='pokemon'>
+    <div class="pokemonDetails container-fluid">
+        <app-pokemon-base-stat [pokemon] = "pokemon"></app-pokemon-base-stat>
+        <app-pokemon-evolution [pokemonEvolution] = "pokemonEvolution"></app-pokemon-evolution> 
+    </div>
+</div>

@@ -1,0 +1,13 @@
+<div class="card profile-card-1 card-flip" routerLink="/pokedex/{{poke.id}}">
+    <img src={{poke.sprites.front_shiny}}  alt="profile-sample1" class="background"/>
+        <div class="card-front">
+            <img src={{poke.sprites.front_default}} alt="Avatar" class="profile">
+        </div>
+        <div class="card-back">
+            <img src={{poke.sprites.back_default}} alt="Avatar" class="profile">
+        </div>
+    <div class="card-content">
+    <h2>{{poke.name | capitalize}}<small>{{poke.types[0].type.name | capitalize}}</small></h2>
+    </div>
+</div>
+

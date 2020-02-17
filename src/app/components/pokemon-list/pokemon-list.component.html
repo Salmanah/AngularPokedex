@@ -1,1 +1,11 @@
-<p>pokemon-list works!</p>
+<div class="pokemonList container-fluid" style="text-align: center; padding-bottom: 100px;">
+    <h1>Pokemon</h1>
+    <div class="d-flex justify-content-center flex-wrap" >
+        <div *ngFor="let pokemon of sortArray(pokemonDetails)" class="card-group">
+            <app-pokemon-list-item [poke] ="pokemon" class=""></app-pokemon-list-item>
+        </div>
+        <div class="col-12" style="padding-top: 50px;">
+            <button (click)="loadMore()" class="btn btn-primary">Load more</button>
+        </div>
+    </div>
+</div>

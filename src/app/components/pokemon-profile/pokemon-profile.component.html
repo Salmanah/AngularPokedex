@@ -1,0 +1,12 @@
+<div class="row" style="padding-top: 50px;">
+    <div class="col-6">
+        <p><b>Height:</b> {{pokemon.height}}</p>
+    </div>
+    <div class="col-6">
+        <p><b>Weight:</b> {{pokemon.weight}}</p>
+    </div>
+    <div class="col-12"><b>Abilities</b></div>
+    <div class="col-6" *ngFor="let p of pokemon.abilities">
+        <p>{{p.ability.name}}</p>
+    </div>
+</div>
